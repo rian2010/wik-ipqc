@@ -1,12 +1,14 @@
+"use client";
 import Image from "next/image";
 import Navbar from "@/component/navbar";
+import Content from "@/component/content-page";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
       <div>
-        <h1 className="text-xl text-black">content</h1>
+        <Content />
       </div>
     </div>
   );
